@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.game{
+    height: 600px;
+    width: 600px;
+    background-color: chocolate;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: cornflowerblue;
+    margin: 10px 10px 10px 10px;
+}
+button{
+    height: 20px;
+    width: 60px;
+}
+.display{
+    background-color: antiquewhite;
+    width: 80%;
+    height: 50%;
+    /* position: relative;
+    left: 10%;
+    top:25%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.but{
+    height: 40px;
+    width: 80%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.newGame{
+    font-size:x-small;
+    text-align: left;
+}
+h3{
+    width: 40%;
+    text-align: center;
+}
